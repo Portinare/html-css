@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: grey;
+            padding: 3px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.411);
+        }
+        nav > a {
+            text-decoration: none;
+            color: rebeccapurple;
+            font-weight: bold;
+            margin: 0px 7px;
+        }
+        nav > a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.37);
+        }
+        article{
+            background-color: lightgrey;
+        }
+        article > aside {
+            background-color: bisque;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>esportes e politica</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem incidunt maxime doloribus, quisquam eos, natus amet unde ipsum tempora assumenda deserunt at in dolorem, iste odit ratione eveniet aliquam labore.</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto amet culpa quae sunt nam ipsum possimus, molestiae veritatis, blanditiis, fugiat tempore autem soluta odit vero quasi voluptatum ducimus impedit magnam.</p>
+                <aside>
+                    <p>Artigo escrito por maria jose</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por CursoemVideo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

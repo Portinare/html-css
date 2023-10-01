@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio imagens</title>
+</head>
+<body>
+    <h1>alterando o tamanho das imagens</h1>
+    <p>abrindo o site em varios tamanhos</p>
+    <picture>
+        <source media="(min-width: 1250px)" srcset="imagens/paisagem-g.png" type="image/png">
+        <source media="(min-width: 780px)" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="imagens/paisagem-p.png" alt="imagem flexivel">
+    </picture>
+    <h1>reproduzindo audios</h1>
+    <p>aprendizado...</p>
+    <audio preload="none" controls>
+        <source src="media/audio.mp3" type="audio/mpeg">
+        <source src="media/audio.ogg" type="audio/ogg">
+        <source src="media/audio.wav" type="audio/wav">
+        <p>seu navegador nao consegue repoduzir o audio <a href="media/audio.mp3">clique aki</a> para baixar</p>
+    </audio>
+</body>
+</html>
